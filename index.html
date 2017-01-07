@@ -23,13 +23,18 @@
     body {
       background-color: transparent;
       color: white;
-    }
-
-    a {
+    } 
+    
+    .learn_more {
       background-color: rgba(255,255,255,.8);
       padding-left: 4px;
       padding-right: 4px;
-      border-radius: 5px;
+      border-radius: 5px;	
+      display: block;
+      width:160px;
+      margin-top: 10px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .center {
@@ -43,6 +48,15 @@
     .no-border {
       border: 0;
     }
+    
+    #bow{
+      background-color: rgba(255,255,255,.8);
+      height: 42px;
+      width: 42px;
+      padding-left: 4px;
+      padding-right: 4px;
+      border-radius: 24px;
+    }
   </style>
 </head>
 
@@ -55,14 +69,17 @@
     <div class="row">
       <div class="jumbotron clear center">
         <h1 class="white-text">
-        <strong>Bow Software <img src="bowico.png" height="42" width="42"></strong>
+        <strong>Bow Software <img id="bow" src="bowico.png"></strong>
       </h1>
         <h2>
             Entreprenuer and Freelancer
           </h2>
         <p>
           Expierienced in Mobile App Development, Algorithmic Design, and Cyber Security
-          <br> <a href="https://www.linkedin.com/in/matt-bowyer-841877a8" >Learn More</a>
+          <a class="learn_more" href="myResume.pdf" >Resume</a>
+          <a class="learn_more" href="https://github.com/MattCBow" >Github</a>
+          <a class="learn_more" href="https://www.quantopian.com/users/5502154fdb7751e40800003a" >Algorithms</a>
+          <a class="learn_more" href="https://www.linkedin.com/in/matt-bowyer-841877a8" >Contact Me</a>
         </p>
       </div>
     </div>
